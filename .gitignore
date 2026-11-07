@@ -1,0 +1,22 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editor and OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local secrets, if you ever add any
+.env
+
+# Keep Mental_Health_Burnout.pkl in the repo: the API needs it to start.
+# If your dataset is large or not allowed to be shared, ignore it here:
+*.csv
