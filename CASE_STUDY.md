@@ -12,7 +12,7 @@ Burnout is usually discussed after it has happened. I wanted a model that takes 
 
 ## The data
 
-An employee wellbeing dataset with [N rows] of tech workers across 10 countries, 12 job roles and 10 industries.It mixes numeric measures (hours, salary, 1 to 10 rating scores), ordered categories (company size, seniority) and nominal ones (country, job role, industry, work mode).
+An employee wellbeing dataset with 100,000 rows of tech workers across 10 countries, 12 job roles and 10 industries. It mixes numeric measures (hours, salary, 1 to 10 rating scores), ordered categories (company size, seniority) and nominal ones (country, job role, industry, work mode).
 
 Data: source not documented. The dataset has [100000 rows] and 27 features plus the burnout score. its origin (real survey or synthetic) is unknown, so the results are a demonstration of the method, not evidence about real workers.
 

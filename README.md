@@ -102,7 +102,7 @@ Inputs are validated with Pydantic. Values outside the allowed ranges or lists r
 
 - R² of about 0.72 means roughly 28% of the variation is not explained. Typical error is about 1 point (MAE 1.13).
 - The model finds associations in the training data, not proven causes.
-- Data: source not documented. The dataset has [100000 rows] and 27 features plus the burnout score. its origin (real survey or synthetic) is unknown, so the results are a demonstration of the method, not evidence about real workers.
+- Data: source not documented. The dataset has 100,000 rows and 27 features plus the burnout score. Its origin (real survey or synthetic) is unknown, so the results are a demonstration of the method, not evidence about real workers.
 - The `.pkl` file only loads reliably with scikit-learn 1.9.1, the version it was saved with.
 - `allow_origins=["*"]` in `main.py` is fine for local use. Restrict it before deploying publicly.
 
@@ -116,27 +116,4 @@ Manish Bandra. [LinkedIn](https://www.linkedin.com/in/m%C3%A0%C3%B1%C3%ACsh-b%C3
 
 ## License
 
-MIT License
-
-Copyright (c) 2026 Your Name
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-"# Mental-Health-Burnout-Score" 
-"# Mental-Health-Burnout-Score" 
-"# Mental-Health-Burnout-Score" 
+MIT. See [LICENSE](LICENSE).
