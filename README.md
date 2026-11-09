@@ -1,3 +1,5 @@
+**Live Demo:** [Open the app](https://mental-health-burnout-score-1.onrender.com)
+
 # Mental Health Burnout Score
 
 Estimate an employee's burnout score from 27 answers about their job, workload, habits and support. A scikit-learn linear regression pipeline is served by a FastAPI backend, with a single-page web form and gauge on top.
