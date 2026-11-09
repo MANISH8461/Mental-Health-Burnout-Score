@@ -82,7 +82,7 @@ aside h2{margin:0 0 .25rem;font:700 1.15rem var(--serif)}
 const SCALE_MAX = 10;
 const BANDS = [[0.25,'Low','#5FC4B4'],[0.5,'Moderate','#F0B84A'],[0.75,'High','#F08A5D'],[1.01,'Severe','#F0654F']];
 // Opened as a local file? Call the API directly. Served by FastAPI at /ui? Use the same origin.
-const API = location.protocol === 'file:' ? 'http://127.0.0.1:8000' : '';
+const API = location.protocol === 'file:' ? 'https://mental-health-burnout-score.onrender.com' : '';
 
 const sel=(n,l,o)=>({n,l,t:'sel',o}), num=(n,l,min,max,step,v)=>({n,l,t:'num',min,max,step,v}),
       rng=(n,l,min,max,step,v)=>({n,l,t:'rng',min,max,step,v}), yn=(n,l)=>({n,l,t:'yn'});
